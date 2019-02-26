@@ -1,0 +1,76 @@
+@font-face {
+    font-family: BowWowWow;
+    src: url("/assets/bauhaus.ttf");
+}
+
+.body {
+  font-family: BowWowWow;
+  background-image: url("/assets/background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+  position: fixed;
+  height: 100%;
+  width: 600px;
+}
+
+.delete-button {
+  position: fixed;
+    margin-top: -350px;
+    margin-left: 666px;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.chart-space {
+  margin: 150px auto;
+}
+
+.disagree-label {
+  background-color: rgba(248, 201, 193, 1);
+  height: 30px;
+  width: 30px;
+  position: fixed;
+  margin-top: -360px;
+  margin-left: 90px;
+}
+
+.headline-disagree {
+  position: fixed;
+  margin-top: -330px;
+  margin-left: 90px;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+.disagree-percentage {
+  position: fixed;
+  margin-top: -290px;
+  margin-left: 90px;
+  font-size: 35px;
+}
+
+.agree-label {
+  background-color: rgba(172, 217, 182, 1);
+  height: 30px;
+  width: 30px;
+  position: fixed;
+  margin-top: -360px;
+  margin-left: 480px;
+}
+
+.headline-agree {
+  position: fixed;
+  margin-top: -330px;
+  margin-left: 420px;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.agree-percentage {
+  position: fixed;
+  margin-top: -290px;
+  margin-left: 440px;
+  font-size: 35px;
+  margin-bottom: 0px;
+}

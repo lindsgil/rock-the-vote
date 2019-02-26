@@ -1,0 +1,21 @@
+<div class="body">
+  <div class="chart-space">
+  <canvas
+      baseChart
+      [chartType]="'doughnut'"
+      [datasets]="chartData"
+      [options]="chartOptions"
+      [legend]="true"
+      [colors]="colors"
+  >
+  </canvas>
+      <div class="disagree-label"></div>
+      <h1 class="headline-disagree">Disagree</h1>
+      <h1 class="disagree-percentage">{{ itemTwoPercent }}%</h1>
+      <div class="agree-label"></div>
+      <h1 class="headline-agree">Agree</h1>
+      <h1 class="agree-percentage">{{ itemOnePercent }}%</h1>
+</div>
+  <br />
+  <button (click)="delete()" class="delete-button">Delete DATA</button>
+</div>
